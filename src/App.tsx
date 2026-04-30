@@ -623,7 +623,7 @@ function App() {
   }
 
   return (
-    <div className="h-screen flex flex-col overflow-hidden" style={{ backgroundImage: 'url(/src/assets/banner.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+    <div className="h-screen flex flex-col overflow-hidden" style={{ backgroundImage: 'url(/banner.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
       {/* WCAG 2.4.1 - 跳过导航链接 */}
       <a href="#main-content" className="skip-to-content">跳到主要内容</a>
 
@@ -683,7 +683,7 @@ function App() {
       <header className="flex-shrink-0 bg-white border-b border-blue-100">
         <div className="max-w-6xl mx-auto px-6 py-3">
           <div className="flex items-center gap-3">
-            <img src="/src/assets/logo.png" alt="logo" className="h-10 w-10 object-cover rounded-full" />
+            <img src="/logo.png" alt="logo" className="h-10 w-10 object-cover rounded-full" />
             <div>
               <h1 className="text-lg font-bold text-gray-900">观复文创</h1>
               <p className="text-xs text-gray-500">创作者的一站式服务平台</p>
@@ -752,7 +752,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="h-48 rounded-2xl overflow-hidden relative">
           <img
-            src="/src/assets/banner.png"
+            src="/banner.png"
             alt="观复文创横幅：蓝白中国风设计，展示产品理念"
             className="w-full h-full object-cover"
           />
@@ -761,7 +761,7 @@ function App() {
               <p className="text-lg text-white drop-shadow-lg italic" style={{ fontFamily: '"Noto Serif SC", serif', letterSpacing: '0.1em' }}>"夫物芸芸，各复归其根。</p>
               <p className="text-lg text-white drop-shadow-lg italic" style={{ fontFamily: '"Noto Serif SC", serif', letterSpacing: '0.1em' }}>归根曰静，是谓复命。"</p>
             </div>
-            <img src="/src/assets/logo.png" alt="观复文创logo" className="h-20 w-20 object-cover rounded-full" />
+            <img src="/logo.png" alt="观复文创logo" className="h-20 w-20 object-cover rounded-full" />
           </div>
         </div>
       </div>
